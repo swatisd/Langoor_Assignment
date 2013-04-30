@@ -1,0 +1,45 @@
+/* CSS Document */
+
+#services div { float:none;
+               } 
+input { border-radius: 4px;
+        padding: 10px;
+        border: 1px #949494 solid;
+        width: 40%;
+        color: #949494;
+        margin-bottom: 20px;
+		margin-left:92px;}
+textarea {border-radius: 4px;
+          padding: 10px;
+          border: 1px #949494 solid;
+          width: 40%;
+          color: #949494;
+          margin-left:60px;
+          height:100px; }
+#slider3 { clear: both;
+           overflow:hidden;
+		   margin:0 auto;/*center of the page*/
+		   position:relative; }
+#slider3 li { float: left; }
+#slider3 .overview { position: absolute;
+                     left:0; top: 0;
+                     width: 484px;
+                     }
+#slider3 .viewport { margin:20px auto;
+                     width: 484px;
+                     height: 264px;
+                     overflow: hidden;
+                     position: relative;
+                     }
+#slider3 .overview li { margin: 0 20px 0 0;
+                        padding: 1px;
+                        height: 569px;
+                        width: 484px;
+                        }
+#slider3 .overview li img { width: 484px; 
+                            }												
+
+#slider4 { display:none;}
+.dottedbox { 
+             display: none;
+           }
